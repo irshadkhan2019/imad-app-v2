@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-  res.sendFile('article 1 is requested and it will bve served');
+  res.sendFile("article 1 is requested and it will bve served");
 });
 
 app.get('/article-two', function (req, res) {
